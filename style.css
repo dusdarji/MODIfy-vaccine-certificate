@@ -1,0 +1,60 @@
+body {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #034D83;
+}
+
+p {
+  font-size: 18px;
+}
+
+.error {
+  color: #FE4500;
+}
+
+.green {
+  color: green;
+}
+
+.input-fields {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 0 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+
+.field label {
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  padding: 10px 15px;
+  background: #379EE7;
+  color: #fff;
+  border: none;
+  outline: none !important;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.25s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+}
